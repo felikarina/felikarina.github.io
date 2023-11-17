@@ -1,0 +1,12 @@
+html {
+    font-family: Montserrat;
+}
+header {
+    padding: 10px 0px;
+    background-color: black;
+    color: azure;
+}
+#bandeau {
+    display: flex;
+    justify-content: flex-end;
+}
