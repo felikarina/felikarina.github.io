@@ -6,7 +6,15 @@ header {
     background-color: black;
     color: azure;
 }
-#bandeau {
+#bandeau{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+.h2 {
+    display: inline-block;
+    align-items: flex-end;
+    color: aqua;
+}
+h1#portfolio {
+    color: rgb(112, 165, 42);
 }
