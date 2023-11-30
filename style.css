@@ -84,15 +84,7 @@ h1:hover {
     margin-right: 8%;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
 }
-#pico {
-    background-color: #b6cdff;
-}
-#happy {
-    background-color: rgb(194, 180, 255);
-}
-#renpy {
-    background-color: rgb(172, 154, 255);
-}
+
 #end {
     height: 200px;
     justify-content: center;
@@ -104,4 +96,21 @@ h1:hover {
 }
 #mail {
     margin-top: 40px;
+}
+#happypy {
+    height: 800px;
+    width: 90%;
+}
+#pro {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-around;
+}
+.propro {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
 }
