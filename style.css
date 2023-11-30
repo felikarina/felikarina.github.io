@@ -57,7 +57,7 @@ h1:hover {
     display: flex;
     justify-content: space-between;
     color: beige;
-    margin-top: 170px;
+    margin-top: 100px;
 }
 #prez {
     color: blueviolet;
@@ -65,24 +65,43 @@ h1:hover {
     margin-left: 8%;
     margin-right: 8%;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    display: flex;
 }
 #photo {
     border-radius: 20px ;
-    margin-top: 4%;
-    margin-left: 4%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
 }
 #blabla {
-    margin-left: 4%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
-#project {
+.project {
+    display: flex;
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+#pico {
+    background-color: #b6cdff;
+}
+#happy {
+    background-color: rgb(194, 180, 255);
+}
+#renpy {
+    background-color: rgb(172, 154, 255);
+}
+#end {
+    height: 200px;
+    justify-content: center;
+    display: grid;
     background-color: white;
     margin-left: 8%;
     margin-right: 8%;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
 }
 #mail {
-    background-color: white;
-    margin-left: 8%;
-    margin-right: 8%;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    margin-top: 40px;
 }
