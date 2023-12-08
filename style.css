@@ -3,7 +3,8 @@ html {
     background-color: black;
 }
 body {
-    background-color: #f5f5f5;;
+    background: rgb(72,66,214);
+    background: linear-gradient(0deg, rgba(72,66,214,0.9651260162268032) 12%, rgba(125,24,75,1) 46%, rgba(0,0,0,1) 91%);
 }
 a:link { 
  text-decoration:none; 
@@ -46,14 +47,14 @@ h1:hover {
     color: rgb(112, 165, 42);
 }
 #phrase {
+    color: #858586;
     margin-left: 6%;
     margin-top: 2%;
 }
 #champi {
-    margin-right: 6%;
+    margin-right: 8%;
 }
 #title {
-    background-color: black;
     display: flex;
     justify-content: space-between;
     color: beige;
@@ -76,13 +77,6 @@ h1:hover {
 #blabla {
     margin-left: 10%;
     margin-top: 10%;
-}
-.project {
-    display: flex;
-    background-color: white;
-    margin-left: 8%;
-    margin-right: 8%;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
 }
 
 #end {
@@ -107,10 +101,34 @@ h1:hover {
     margin-right: 8%;
     justify-content: space-around;
 }
+#pico {
+    color: #000001;
+    position: relative;
+    overflow: hidden;
+}
+#happy {
+    position: relative;
+    overflow: hidden;
+}
+#renpy {
+    position: relative;
+    overflow: hidden;
+}
 .propro {
     width: 350px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     background-color: white;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+.imgP {
+    filter: grayscale(90%);
+}
+.imgP:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    -webkit-transition:1s ease-in-out;
+    transition:1s ease-in-out;
+    filter: grayscale(0%);
 }
