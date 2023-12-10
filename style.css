@@ -46,18 +46,12 @@ h1:hover {
 #portfolio {
     color: rgb(112, 165, 42);
 }
-#phrase {
-    color: #858586;
-    margin-left: 6%;
-    margin-top: 2%;
-}
 #champi {
     margin-right: 8%;
 }
 #title {
     display: flex;
     justify-content: space-between;
-    color: beige;
     margin-top: 100px;
 }
 #prez {
