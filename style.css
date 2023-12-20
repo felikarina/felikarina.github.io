@@ -51,8 +51,9 @@ h1:hover {
 }
 #title {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     margin-top: 100px;
+    margin-bottom: 40px;
 }
 #prez {
     opacity: 0.9;
@@ -159,4 +160,12 @@ h1:hover {
 #descrifraise {
     color: antiquewhite;
     margin-left: 5%;
+}
+.barre {
+    color: antiquewhite;
+    font-size: 80px;
+
+}
+.barrou {
+    color: antiquewhite;
 }
