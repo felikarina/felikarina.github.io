@@ -164,8 +164,11 @@ h1:hover {
 .barre {
     color: antiquewhite;
     font-size: 80px;
-
+    background-color: #54314f;
+    border-radius: 10px;
 }
 .barrou {
     color: antiquewhite;
+    background-color: #54314f;
+    border-radius: 10px;
 }
