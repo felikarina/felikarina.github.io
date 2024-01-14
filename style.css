@@ -172,3 +172,7 @@ h1:hover {
     background-color: #54314f;
     border-radius: 10px;
 }
+#puzzle {
+    border: none;
+    color: #f42703;
+}
