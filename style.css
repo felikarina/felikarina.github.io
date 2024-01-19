@@ -1,10 +1,10 @@
 html {
     font-family: Montserrat;
-    background-color:linear-gradient(0deg, rgba(26, 22, 127, 0.965) 12%, rgba(125,24,75,1) 46%, rgba(0,0,0,1) 91%)
+    background-color:linear-gradient(0deg, rgba(26, 22, 127, 0.965) 12%, rgb(47, 0, 66) 46%, rgba(0,0,0,1) 91%)
 }
 body {
     background: rgb(72,66,214);
-    background: linear-gradient(0deg, rgba(26, 22, 127, 0.965) 12%, rgba(125,24,75,1) 46%, rgba(0,0,0,1) 91%);
+    background: linear-gradient(0deg, rgba(28, 9, 83, 0.965) 12%, rgb(55, 1, 36) 46%, rgba(0,0,0,1) 91%);
 }
 a:link { 
  text-decoration:none; 
@@ -162,15 +162,13 @@ h1:hover {
     margin-left: 5%;
 }
 .barre {
-    color: antiquewhite;
+    color: rgb(54, 133, 208);
     font-size: 80px;
-    background-color: #54314f;
-    border-radius: 10px;
+    margin-left: 20px;
 }
 .barrou {
-    color: antiquewhite;
-    background-color: #54314f;
-    border-radius: 10px;
+    color: rgb(54, 133, 208);
+    margin-right: 20px;
 }
 #puzzle {
     border: none;
