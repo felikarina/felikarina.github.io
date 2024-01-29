@@ -56,9 +56,8 @@ h1:hover {
     margin-bottom: 40px;
 }
 #prez {
-    opacity: 0.9;
     color: blueviolet;
-    background-color: white;
+    background-image: url(image/fond2.png);
     margin-left: 8%;
     margin-right: 8%;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
@@ -72,17 +71,30 @@ h1:hover {
     margin-bottom: 10%;
 }
 #blabla {
-    margin-left: 10%;
     margin-top: 4%;
-}
-
-#end {
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffe7d4;
+    border-radius: 10px;
     opacity: 0.9;
+}
+.petitend {
+    background-color: #ffe7d4;
+    border-radius: 10px;
+    margin-top: -10%;
+    width: 180%;
+    height: 100%;
+    margin-left: -40%;
+    text-align: center;
+    opacity: 0.9;
+}
+#end {
+    background-image: url(image/fond2.png);
     border-radius: 10px;
     height: 200px;
     justify-content: center;
     display: grid;
-    background-color: white;
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 8%;
