@@ -1,8 +1,10 @@
 html {
     font-family: Montserrat;
-    background-color:linear-gradient(0deg, rgba(26, 22, 127, 0.965) 12%, rgb(47, 0, 66) 46%, rgba(0,0,0,1) 91%)
+    background: rgb(72,66,214);
+    background: linear-gradient(0deg, rgba(28, 9, 83, 0.965) 12%, rgb(55, 1, 36) 46%, rgba(0,0,0,1) 91%);
 }
 body {
+    height: 1400px;
     background: rgb(72,66,214);
     background: linear-gradient(0deg, rgba(28, 9, 83, 0.965) 12%, rgb(55, 1, 36) 46%, rgba(0,0,0,1) 91%);
 }
@@ -57,7 +59,7 @@ h1:hover {
 }
 #prez {
     color: blueviolet;
-    background-image: url(image/fond2.png);
+    background-color: rgb(84, 46, 27);
     margin-left: 8%;
     margin-right: 8%;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
@@ -66,18 +68,20 @@ h1:hover {
 }
 #photo {
     border-radius: 20px ;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 15%;
+    margin-left: 15%;
     margin-bottom: 10%;
 }
 #blabla {
     margin-top: 4%;
     margin-bottom: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     background-color: #ffe7d4;
     border-radius: 10px;
     opacity: 0.9;
+    border: 1rem solid;
+    border-color: #ffe7d4;
 }
 .petitend {
     background-color: #ffe7d4;
@@ -90,7 +94,7 @@ h1:hover {
     opacity: 0.9;
 }
 #end {
-    background-image: url(image/fond2.png);
+    background-color: rgb(84, 46, 27);
     border-radius: 10px;
     height: 200px;
     justify-content: center;
