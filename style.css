@@ -1,15 +1,23 @@
+:root {
+    --primary-color: rgb(72,66,214);
+    --secondary-color: rgba(28, 9, 83, 0.965);
+    --tertiary-color: rgb(55, 1, 36);
+    --text-color: antiquewhite;
+}
 html {
     font-family: Montserrat;
-    background: rgb(72,66,214);
-    background: linear-gradient(0deg, rgba(28, 9, 83, 0.965) 12%, rgb(55, 1, 36) 46%, rgba(0,0,0,1) 91%);
+    background: var(--primary-color);
+    background: linear-gradient(0deg, rgb(27, 27, 27) 46%, rgba(0,0,0,1) 91%);
+    height: 100%;
+    margin: 0;
 }
 body {
     height: 1400px;
-    background: rgb(72,66,214);
-    background: linear-gradient(0deg, rgba(28, 9, 83, 0.965) 12%, rgb(55, 1, 36) 46%, rgba(0,0,0,1) 91%);
+    background: var(--primary-color);
+    background: linear-gradient(0deg, rgb(27, 27, 27) 46%, rgba(0,0,0,1) 91%);
 }
 a:link { 
- text-decoration:none; 
+    text-decoration: none; 
 }
 .fixed-top {
     position: fixed;
@@ -22,29 +30,23 @@ header {
     background-color: black;
     opacity: 0.8;
 }
-#bandeau{
+#bandeau {
     display: flex;
     justify-content: space-around;
 }
-.h2 {
+h2 {
     display: inline-block;
     align-items: flex-end;
     color: aqua;
 }
-.h2:hover {
+h2:hover {
     color: #fff;
-    text-shadow: 0 0 5px #f403d0,
-                0 0 25px #03e9f4,
-                0 0 50px #f49803,
-                0 0 100px #03e9f4;
+    text-shadow: 0 0 5px #f403d0, 0 0 25px #03e9f4, 0 0 50px #f49803, 0 0 100px #03e9f4;
 }
 h1:hover {
     color: #fff;
-    text-shadow: 0 0 5px #000001,
-                0 0 25px #f40303,
-                0 0 50px #f42703,
-                0 0 100px #f4b803;
-  }
+    text-shadow: 0 0 5px #000001, 0 0 25px #f40303, 0 0 50px #f42703, 0 0 100px #f4b803;
+}
 #portfolio {
     color: rgb(112, 165, 42);
 }
@@ -53,30 +55,24 @@ h1:hover {
 }
 #title {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 40px;
 }
 #prez {
     color: blueviolet;
     background-color: rgb(84, 46, 27);
-    margin-left: 8%;
-    margin-right: 8%;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
-    display: flex;
+    margin: 0 8%;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
     border-radius: 10px;
+    display: flex;
 }
 #photo {
     border-radius: 20px ;
-    margin-top: 15%;
-    margin-left: 15%;
-    margin-bottom: 10%;
+    margin: 15% 0 10% 15%;
 }
 #blabla {
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 4% 8%;
     background-color: #ffe7d4;
     border-radius: 10px;
     opacity: 0.9;
@@ -86,10 +82,9 @@ h1:hover {
 .petitend {
     background-color: #ffe7d4;
     border-radius: 10px;
-    margin-top: -10%;
+    margin: -10% 0 0 -40%;
     width: 180%;
     height: 100%;
-    margin-left: -40%;
     text-align: center;
     opacity: 0.9;
 }
@@ -99,10 +94,8 @@ h1:hover {
     height: 200px;
     justify-content: center;
     display: grid;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 8%;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    margin: 0 8% 8%;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
 }
 #mail {
     margin-top: 40px;
@@ -123,20 +116,18 @@ h1:hover {
 #pro {
     display: flex;
     justify-content: space-between;
-    margin-right: 6%;
-    margin-bottom: 5%;
+    margin: 0 6% 5%;
 }
 .propro {
     opacity: 0.9;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
     width: 200px;
     height: 200px;
     display: flex;
     flex-direction: column;
     background-color: black;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
 }
-
 #paragraph {
     margin-left: 40%;
     line-height: 200%;
@@ -145,24 +136,19 @@ h1:hover {
     margin-left: 0;
     margin-right: 0;
     display: flex;
-    color: antiquewhite;
+    color: var(--text-color);
 }
 #descri {
     width: 400px;
     line-height: 200%;
 }
 #descrifraise {
-    color: antiquewhite;
+    color: var(--text-color);
     margin-left: 5%;
 }
-.barre {
+.barre, .barrou {
     color: rgb(54, 133, 208);
-    font-size: 80px;
-    margin-left: 20px;
-}
-.barrou {
-    color: rgb(54, 133, 208);
-    margin-right: 20px;
+    margin: 0 20px;
 }
 #puzzle {
     border: none;
