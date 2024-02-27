@@ -5,7 +5,7 @@ Bienvenue sur mon portfolio de développement web ! Ce projet contient une colle
 ## Liens Utiles
 
 - [Portfolio en Ligne](https://felikarina.github.io/)
-- [Profil LinkedIn](www.linkedin.com/in/karina-félicité-9935022a6)
+- [Profil LinkedIn]([www.linkedin.com/in/karina-félicité-9935022a6](https://www.linkedin.com/in/karina-f%C3%A9licit%C3%A9-9935022a6/))
 
 ## Technologies Utilisées
 
