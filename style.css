@@ -116,7 +116,7 @@ h1:hover {
 #pro {
     display: flex;
     justify-content: space-evenly;
-    margin-left: -10%;
+    height: 20%;
 }
 .propro {
     opacity: 0.9;
@@ -142,7 +142,7 @@ h1:hover {
     width: 400px;
     line-height: 200%;
 }
-#descrifraise {
+#descrifraise, #descrisocial {
     color: var(--text-color);
     margin-left: 5%;
 }
@@ -152,8 +152,8 @@ h1:hover {
 }
 #puzzle {
     border: none;
-    color: #f403c4;
-    background-color: #d6f4b2;
+    color: #ffc1f2;
+    background-color: #e7800a;
     border-radius: 10px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
 }
