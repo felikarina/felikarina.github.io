@@ -60,8 +60,8 @@ h1:hover {
     margin-bottom: 40px;
 }
 #prez {
-    color: blueviolet;
-    background-color: rgb(84, 46, 27);
+    color: rgb(42, 40, 169);
+    background-color:rgba(69, 100, 201, 0.565);
     margin: 0 8%;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
     border-radius: 10px;
@@ -89,7 +89,7 @@ h1:hover {
     opacity: 0.9;
 }
 #end {
-    background-color: rgb(84, 46, 27);
+    background-color: rgba(69, 100, 201, 0.565);
     border-radius: 10px;
     height: 200px;
     justify-content: center;
@@ -153,9 +153,37 @@ h1:hover {
 #puzzle {
     border: none;
     color: #ffc1f2;
-    background-color: #e7800a;
+    background-color: #9638e3aa;
     border-radius: 10px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
 }
-
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(69, 100, 201);
+}
+.vignette {
+    position: relative;
+}
+.vignette:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
