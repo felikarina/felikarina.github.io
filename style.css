@@ -103,8 +103,8 @@ h1:hover {
 #happypy {
     width: 100% !important;
     height: 100% !important;
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
 }
