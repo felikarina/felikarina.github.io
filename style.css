@@ -12,7 +12,7 @@ html {
     margin: 0;
 }
 body {
-    height: 1400px;
+    height: 1800px;
     background: var(--primary-color);
     background: linear-gradient(0deg, rgb(27, 27, 27) 46%, rgba(0,0,0,1) 91%);
 }
@@ -116,7 +116,7 @@ h1:hover {
 #pro {
     display: flex;
     justify-content: space-evenly;
-    height: 20%;
+    height: 15%;
 }
 .propro {
     opacity: 0.9;
