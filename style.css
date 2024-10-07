@@ -50,14 +50,14 @@ h1:hover {
 #portfolio {
     color: rgb(112, 165, 42);
 }
-#champi {
-    margin-right: 8%;
-}
+
 #title {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 40px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 #prez {
     color: rgb(42, 40, 169);
