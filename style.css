@@ -27,7 +27,7 @@ a:link {
 }
 header {
     padding: 10px 0px;
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     opacity: 0.8;
 }
 #bandeau {
