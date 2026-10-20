@@ -1,4 +1,4 @@
-# Portfolio de Développeuse Web Apprentie
+# Portfolio de Karina Félicité — Développement fullstack
 
 Bienvenue sur mon portfolio de développement web ! Ce projet contient une collection de mes projets, compétences et expériences dans le domaine du développement web.
 
@@ -24,4 +24,4 @@ Pour exécuter ce portfolio localement, suivez ces étapes :
 ## Contact
 
 Pour toute question ou commentaire, n'hésitez pas à me contacter :
-- Email: felikarina@etik.com
+- Email: felikarina@yahoo.fr
