@@ -1,65 +1,79 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Découvrez Dashboard, un site web consacré aux animes et mangas, réalisé avec Django et PostgreSQL.">
+    <title>Dashboard — Karina Félicité</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="project.css">
 </head>
-<header class="fixed-top">
-  <div id="bandeau">
-    <a href="/index.html">
-      <h1 id="portfolio">PORTFOLIO</h1>
-    </a>
-    <a href="/index.html#profil">
-      <h2 class="h2">Profil</h2>
-    </a>
-    <a href="/index.html#projets">
-      <h2 class="h2">Projets</h2>
-    </a>
-    <a href="/index.html#contact">
-      <h2 class="h2">Contact</h2>
-    </a>
-  </div>
-</header>
-
-<div id="title" class="text-primary">
-  <h2 class="barre">Dashboard </h2><br> <br>
-  <h4 class="barrou">Type de projet : site web <br>
-    Langage : Python (Django) & Postgres<br>
-    Taille de l'équipe : 1 personne <br>
-    Durée : 1 semaine
-  </h4>
-</div>
-
 <body>
-  <div class="container-fluid" style="display: flex;">
-    <div>
-      <div class="row">
-        <img class="col" height="300px" src="image\dash2.png">
-        
-      </div> <br>
-      <div class="row">
-        <img class="col" height="300px" src="image\dash1.png">
-        
-      </div>
-    </div>
-    <p id="descrifraise" class="col-4">
-      <a href="https://github.com/felikarina/dashboard"><i>LIEN REPOSITORY GITHUB</i></a><br>
-      Dashboard est un site web qui affiche le top 6 des animes et mangas du moment. Une seconde page enclenchée par le bouton qui s'apparente à un mode nuit affiche le nombre de visiteurs, leur addresse IP et autres informations.<br><br>
-        Compétences sollicitées : <br>
-        - connexion à plusieurs API <br>
-        - web scraping <br>
-        - animation CSS <br>
-    </p>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Navigation principale">
+            <a class="brand" href="index.html#accueil" aria-label="Karina Félicité, accueil">KF<span>.</span></a>
+            <div class="nav-links">
+                <a href="index.html#profil">À propos</a>
+                <a href="index.html#projets">Projets</a>
+                <a class="nav-contact" href="index.html#contact">Me contacter <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+    <main class="project-page section-shell">
+        <a class="project-back" href="index.html#projets"><span aria-hidden="true">←</span> Retour aux projets</a>
+        <section class="project-intro" aria-labelledby="project-title">
+            <div>
+                <p class="eyebrow">Projet personnel · Site web</p>
+                <h1 class="project-title" id="project-title"><span>Dashboard.</span></h1>
+                <p class="project-lead">Un tableau de bord consacré aux animes et mangas du moment, avec une seconde vue d’informations de fréquentation.</p>
+            </div>
+            <div>
+                <dl class="project-facts">
+                    <div class="project-fact"><dt>Technologies</dt><dd>Python · Django · PostgreSQL</dd></div>
+                    <div class="project-fact"><dt>Équipe</dt><dd>Projet individuel</dd></div>
+                    <div class="project-fact"><dt>Durée</dt><dd>1 semaine</dd></div>
+                    <div class="project-fact"><dt>Type</dt><dd>Tableau de bord web</dd></div>
+                </dl>
+                <div class="project-links">
+                    <a class="project-link" href="https://github.com/felikarina/dashboard" target="_blank" rel="noreferrer">Dépôt GitHub <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+        <section class="project-section" aria-labelledby="gallery-title">
+            <div class="project-section-heading">
+                <p class="eyebrow">En images</p>
+                <h2 id="gallery-title">Aperçu du tableau de bord</h2>
+            </div>
+            <div class="project-gallery">
+                <figure class="project-media"><img src="image/dash2.png" alt="Vue principale du tableau de bord Dashboard" loading="lazy"></figure>
+                <figure class="project-media"><img src="image/dash1.png" alt="Vue complémentaire du projet Dashboard" loading="lazy"></figure>
+            </div>
+        </section>
+        <section class="project-story" aria-label="À propos du projet">
+            <article class="project-story-card">
+                <h2>À propos</h2>
+                <p>Dashboard affiche un classement des six animes et mangas du moment. Une seconde page, accessible avec un bouton évoquant un mode nuit, présente des informations sur les visites du site.</p>
+            </article>
+            <article class="project-story-card">
+                <h2>Ce que j’ai exploré</h2>
+                <ul class="project-skills">
+                    <li>Connexion à plusieurs API</li>
+                    <li>Web scraping</li>
+                    <li>Animations CSS</li>
+                </ul>
+            </article>
+        </section>
+        <footer class="project-footer contact-links">
+            <a href="mailto:felikarina@etik.com">felikarina@etik.com</a>
+            <div>
+                <a href="https://github.com/felikarina" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                <a href="https://www.linkedin.com/in/karina-félicité-9935022a6/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="copyright">© Karina Félicité · 2026</span>
+        </footer>
+    </main>
 </body>
-
 </html>

@@ -1,20 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quelques puzzles de Karina Félicité, présentés dans une galerie.">
+    <title>Les puzzles — Karina Félicité</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="project.css">
 </head>
-
-<body style="background-color: black;">
-    <div style="display: flexbox;">
-        <img height="400" src="image\puzzle_3.jpg">
-        <img height="400" src="image\puzzle_4.jpg">
-        <img height="400" src="image\puzzle_1.jpg">
-        <img height="400" src="image\puzzle_2.jpg">
-        <img height="400" src="image\puzzle_5.jpg">
-    </div>
+<body>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Navigation principale">
+            <a class="brand" href="index.html#accueil" aria-label="Karina Félicité, accueil">KF<span>.</span></a>
+            <div class="nav-links">
+                <a href="index.html#profil">À propos</a>
+                <a href="index.html#projets">Projets</a>
+                <a class="nav-contact" href="index.html#contact">Me contacter <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+    <main class="project-page section-shell">
+        <a class="project-back" href="index.html#profil"><span aria-hidden="true">←</span> Retour au profil</a>
+        <section class="project-intro" aria-labelledby="project-title">
+            <div>
+                <p class="eyebrow">En dehors du code · Galerie</p>
+                <h1 class="project-title" id="project-title">Un peu de <span>patience.</span></h1>
+                <p class="project-lead">Quelques puzzles assemblés avec soin — une autre façon d’aimer les détails.</p>
+            </div>
+            <dl class="project-facts">
+                <div class="project-fact"><dt>À retrouver</dt><dd>5 puzzles</dd></div>
+                <div class="project-fact"><dt>Dans mes loisirs</dt><dd>La passion des puzzles</dd></div>
+            </dl>
+        </section>
+        <section class="project-section" aria-labelledby="gallery-title">
+            <div class="project-section-heading">
+                <p class="eyebrow">Pièce par pièce</p>
+                <h2 id="gallery-title">La galerie</h2>
+            </div>
+            <div class="project-gallery puzzle-gallery">
+                <figure class="project-media"><img src="image/puzzle_3.jpg" alt="Puzzle terminé, troisième image" loading="lazy"></figure>
+                <figure class="project-media"><img src="image/puzzle_4.jpg" alt="Puzzle terminé, quatrième image" loading="lazy"></figure>
+                <figure class="project-media"><img src="image/puzzle_1.jpg" alt="Puzzle terminé, première image" loading="lazy"></figure>
+                <figure class="project-media"><img src="image/puzzle_2.jpg" alt="Puzzle terminé, deuxième image" loading="lazy"></figure>
+                <figure class="project-media"><img src="image/puzzle_5.jpg" alt="Puzzle terminé, cinquième image" loading="lazy"></figure>
+            </div>
+        </section>
+        <footer class="project-footer contact-links">
+            <a href="mailto:felikarina@etik.com">felikarina@etik.com</a>
+            <div>
+                <a href="https://github.com/felikarina" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                <a href="https://www.linkedin.com/in/karina-félicité-9935022a6/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="copyright">© Karina Félicité · 2026</span>
+        </footer>
+    </main>
 </body>
-
 </html>
