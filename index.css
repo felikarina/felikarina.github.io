@@ -484,6 +484,69 @@ h4 {
     background: var(--surface-light);
 }
 
+.project-image--company {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    padding: clamp(22px, 5vw, 42px);
+    background:
+        radial-gradient(ellipse at 85% 18%, rgba(200, 241, 105, 0.2), transparent 37%),
+        linear-gradient(135deg, #202a36, #171a21 72%);
+}
+
+.company-mark {
+    font-family: var(--font-display);
+    font-size: clamp(1.45rem, 3vw, 2rem);
+    font-weight: 800;
+    letter-spacing: -0.065em;
+}
+
+.company-kicker {
+    color: var(--muted);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+}
+
+.company-tool-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 750;
+    letter-spacing: -0.065em;
+    line-height: 0.98;
+}
+
+.project-image--business {
+    background:
+        radial-gradient(ellipse at 85% 18%, rgba(243, 184, 103, 0.2), transparent 38%),
+        linear-gradient(135deg, #30271f, #171a21 72%);
+}
+
+.project-image--forum {
+    background:
+        radial-gradient(ellipse at 85% 18%, rgba(131, 161, 255, 0.2), transparent 38%),
+        linear-gradient(135deg, #22263a, #171a21 72%);
+}
+
+.company-mark span {
+    color: var(--accent);
+    font-size: 0.58em;
+    letter-spacing: 0.08em;
+}
+
+.company-divider {
+    width: 44px;
+    height: 2px;
+    background: var(--accent);
+}
+
+.company-caption {
+    color: var(--muted);
+    font-size: 0.86rem;
+}
+
 .project-image img {
     display: block;
     width: 100%;
